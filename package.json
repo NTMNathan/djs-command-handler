@@ -1,0 +1,48 @@
+{
+  "name": "djs-command-handler",
+  "version": "1.0.0",
+  "description": "A Discord.js bot handler using ESM modules",
+  "main": "bot.js",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint --ext .js,.ts . . --fix",
+    "start": "node bot",
+    "deploy": "node deploy",
+    "deploy-g": "node deploy guild"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NTMNathan/djs-command-handler.git"
+  },
+  "keywords": [
+    "discord-bot",
+    "discord-js",
+    "context-menus",
+    "discord-slash-commands",
+    "discord-context-menus",
+    "slash-commands",
+    "bot",
+    "discord",
+    "javascript",
+    "nodejs"
+  ],
+  "author": "NTMNathan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NTMNathan/djs-command-handler/issues"
+  },
+  "homepage": "https://github.com/NTMNathan/djs-command-handler#readme",
+  "devDependencies": {
+    "eslint": "^8.47.0",
+    "eslint-plugin-n": "^16.0.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.0.0"
+  },
+  "dependencies": {
+    "@discordjs/rest": "^2.0.1",
+    "common-tags": "^1.8.2",
+    "dayjs": "^1.11.9",
+    "discord.js": "^14.13.0",
+    "dotenv": "^16.0.1"
+  }
+}
