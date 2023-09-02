@@ -24,7 +24,15 @@ export default {
 			return await interaction.reply({ embeds: [avatarEmbed] });
 		}
 		catch (e) {
-			return client.errors.commandError(client, interaction, e, client.fetchCommand(interaction.commandName));
+			return await interaction.followUp({
+				content: stripIndents`
+				**An error occurred while running \`${interaction.commandName}\`**
+				
+				\`\`\`
+				${e.message}
+				\`\`\`
+				`,
+			});		
 		}
 	},
 };
