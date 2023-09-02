@@ -18,7 +18,7 @@ git clone https://github.com/NTMNathan/djs-command-handler
 
 2. Create a Discord Application and name it.
 
-![bot create](https://i.imgur.com/luHPTGL.png "Step 2")
+![bot create](https://i.imgur.com/Q1D4xdm.png "Step 2")
 
 3. Rename `example.env` to `.env` and `example.config` to `config.js` and fill the required values from the Discord **Bot** Page. **Do not show anyone these!**
 
