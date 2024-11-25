@@ -1,3 +1,9 @@
+# ⚠️⚠️ NO LONGER MAINTAINED ⚠️⚠️
+I no longer have the time to maintain this repository. Therefore, I will not be providing any further fixes or support for the repo, including through my Discord server.
+
+<br>
+<br>
+
 <h1 align="center">Discord.js Command Handler</h1>
 <div align="center">
     A Discord.js Command Handler example using Slash Commands and Context Menus.
